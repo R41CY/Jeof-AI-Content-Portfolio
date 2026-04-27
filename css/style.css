@@ -760,6 +760,7 @@ section {
   text-transform: uppercase;
   background: linear-gradient(135deg, var(--accent-light) 0%, var(--accent-dark) 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   position: relative;
   display: inline-block;
@@ -1206,6 +1207,7 @@ h1, h2, h3, h4, h5, h6, .nav-logo {
   line-height: 1.5;
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
